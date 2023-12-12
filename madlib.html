@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlib for creativity </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/madlibstyle.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!--Header-->
+
+    <header>
+        <div class="container">
+            <div class="col-sm-4 p-5 ">
+                <h1><b> Mad libs to develop creativity</b></h1>
+                <p><b> Create the most random stories</b> </p>
+            </div>
+        </div>
+    </header>
+    <!---------------------Main Body Content----------------------->
+    <section>
+        <div class="container py-5">
+
+            <!------------Row for the Form----------------------->
+
+            <div class="row my-5 p-3">
+                <div class="col-sm-6 mx-auto">
+                    <h2>Hi, creative writter</h2>
+                    <p>There are some spaces to fill out bellow to complete the craziest story create by your own</p>
+                    <p>This mad lib only has nouns, verbs,adjectives and catchphrase. (Example: A Verb is an action like
+                        eat. A noun is a person/place/thing. An adjective describes a person/place/thing. A Catchphrase a phrase
+                        that is often repeated and becomes connected with a particular organization, product, person,)
+                    </p>
+                    <form action="javascript:Fill();">
+                        <div class="form-group">
+                            <label for="noun">Noun:</label>
+                            <input type="text" class="form-control" id="noun">
+                        </div>
+                        <div class="form-group">
+                            <label for="verb">Verb:</label>
+                            <input type="text" class="form-control" id="verb">
+                        </div>
+                        <div class="form-group">
+                            <label for="nounitem">Thing:</label>
+                            <input type="text" class="form-control" id="nounitem">
+                        </div>
+                        <div class="form-group">
+                            <label for="adjective">Adjective:</label>
+                            <input type="text" class="form-control" id="adjective">
+                        </div>
+                        <div class="form-group">
+                            <label for="nounplural">Noun Plural:</label>
+                            <input type="text" class="form-control" id="nounplural">
+                        </div>
+                        <div class="form-group">
+                            <label for="adjectiveone">Adjective:</label>
+                            <input type="text" class="form-control" id="adjectiveone">
+                        </div>
+                        <div class="form-group">
+                            <label for="nounplace">Country:</label>
+                            <input type="text" class="form-control" id="nounplace">
+                        </div>
+                        <div class="form-group">
+                            <label for="nounfood">Noun Food:</label>
+                            <input type="text" class="form-control" id="nounfood">
+                        </div>
+                        <div class="form-group">
+                            <label for="nounitemtwo">Noun Thing:</label>
+                            <input type="text" class="form-control" id="nounitemtwo">
+                        </div>
+                        <div class="form-group">
+                            <label for="catchphrase">Catchphrase:</label>
+                            <input type="text" class="form-control" id="catchphrase">
+                        </div>
+                        <div class="form-group">
+                            It is a fun activity ?
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="fun" value="Sagree"> Strongly Agree
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="fun" value="agree"> Agree
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="fun" value="Summer" > Desagree 
+                                </label>
+                            </div>
+                            </div>
+    
+                        <button type="submit" class="btn btn-block btn-info">Complete</button>
+                    </form>
+
+                </div>
+            </div>
+        
+
+            <!--Output-->
+            <div class="row">
+                <div id="output" class="col-sm-12 mx-auto bg-secondary p-5 rounded text-white">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+</body>
+<footer>
+    <div class="container text-white text-center p-3 mt-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Made by Decsy Nataly Sanchez</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!---------------------Javascript----------------------->
+<script src="js/Madlib.js">
+
+</script>
+
+</html>

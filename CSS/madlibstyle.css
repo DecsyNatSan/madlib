@@ -1,0 +1,15 @@
+header{
+    background-image: url("../images/explore.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+h1 {color:darkorchid;}
+
+section{
+    background-color:#E89EC1;
+}
+footer{
+    background-color: #08A8B6;
+}
